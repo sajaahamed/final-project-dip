@@ -50,6 +50,7 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
@@ -74,6 +75,7 @@
             this.guna2Button24 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button25 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button26 = new Guna.UI2.WinForms.Guna2Button();
+
             this.tbc_menu.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
@@ -162,6 +164,8 @@
             // 
             // dataGridView3
             // 
+            this.dataGridView3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -222,9 +226,15 @@
             this.groupBox1.Controls.Add(this.guna2ComboBox1);
             this.groupBox1.Controls.Add(this.btn_add);
             this.groupBox1.Controls.Add(this.guna2TextBox2);
+
+            this.groupBox1.Location = new System.Drawing.Point(20, 66);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(635, 201);
+
             this.groupBox1.Location = new System.Drawing.Point(660, 281);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(569, 201);
+
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add item to bill";
@@ -404,6 +414,8 @@
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(380, 336);
             this.dataGridView2.TabIndex = 0;
+
+
             // 
             // guna2Button3
             // 
@@ -788,6 +800,7 @@
             this.guna2Button26.Size = new System.Drawing.Size(126, 85);
             this.guna2Button26.TabIndex = 27;
             this.guna2Button26.Text = "guna2Button26";
+
             // 
             // MainMenu
             // 

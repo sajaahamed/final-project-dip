@@ -50,7 +50,9 @@
             // 
             // btn_login
             // 
+            this.btn_login.BorderColor = System.Drawing.Color.BurlyWood;
             this.btn_login.BorderRadius = 10;
+            this.btn_login.BorderThickness = 2;
             this.btn_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_login.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -118,7 +120,9 @@
             // 
             // guna2Button2
             // 
+            this.guna2Button2.BorderColor = System.Drawing.Color.BurlyWood;
             this.guna2Button2.BorderRadius = 10;
+            this.guna2Button2.BorderThickness = 2;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

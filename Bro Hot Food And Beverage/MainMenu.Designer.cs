@@ -163,7 +163,7 @@
             // dataGridView3
             // 
             this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.meal_bill,
@@ -407,9 +407,6 @@
             // 
             // guna2Button3
             // 
-            this.guna2Button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button3.BorderRadius = 8;
             this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -426,9 +423,6 @@
             // 
             // guna2Button4
             // 
-            this.guna2Button4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button4.BorderRadius = 8;
             this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -445,9 +439,6 @@
             // 
             // guna2Button5
             // 
-            this.guna2Button5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button5.BorderRadius = 8;
             this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -464,9 +455,6 @@
             // 
             // guna2Button6
             // 
-            this.guna2Button6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button6.BorderRadius = 8;
             this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -483,9 +471,6 @@
             // 
             // guna2Button7
             // 
-            this.guna2Button7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button7.BorderRadius = 8;
             this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -502,9 +487,6 @@
             // 
             // guna2Button8
             // 
-            this.guna2Button8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button8.BorderRadius = 8;
             this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -521,9 +503,6 @@
             // 
             // guna2Button9
             // 
-            this.guna2Button9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button9.BorderRadius = 8;
             this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -540,9 +519,6 @@
             // 
             // guna2Button10
             // 
-            this.guna2Button10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button10.BorderRadius = 8;
             this.guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -559,9 +535,6 @@
             // 
             // guna2Button11
             // 
-            this.guna2Button11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button11.BorderRadius = 8;
             this.guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -578,9 +551,6 @@
             // 
             // guna2Button12
             // 
-            this.guna2Button12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button12.BorderRadius = 8;
             this.guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -597,9 +567,6 @@
             // 
             // guna2Button13
             // 
-            this.guna2Button13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button13.BorderRadius = 8;
             this.guna2Button13.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button13.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -616,9 +583,6 @@
             // 
             // guna2Button14
             // 
-            this.guna2Button14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button14.BorderRadius = 8;
             this.guna2Button14.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button14.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -635,9 +599,6 @@
             // 
             // guna2Button15
             // 
-            this.guna2Button15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button15.BorderRadius = 8;
             this.guna2Button15.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button15.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -654,9 +615,6 @@
             // 
             // guna2Button16
             // 
-            this.guna2Button16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button16.BorderRadius = 8;
             this.guna2Button16.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button16.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -673,9 +631,6 @@
             // 
             // guna2Button17
             // 
-            this.guna2Button17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button17.BorderRadius = 8;
             this.guna2Button17.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button17.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -692,9 +647,6 @@
             // 
             // guna2Button18
             // 
-            this.guna2Button18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button18.BorderRadius = 8;
             this.guna2Button18.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button18.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -711,9 +663,6 @@
             // 
             // guna2Button19
             // 
-            this.guna2Button19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button19.BorderRadius = 8;
             this.guna2Button19.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button19.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -730,9 +679,6 @@
             // 
             // guna2Button20
             // 
-            this.guna2Button20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button20.BorderRadius = 8;
             this.guna2Button20.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button20.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -749,9 +695,6 @@
             // 
             // guna2Button21
             // 
-            this.guna2Button21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button21.BorderRadius = 8;
             this.guna2Button21.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button21.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -768,9 +711,6 @@
             // 
             // guna2Button22
             // 
-            this.guna2Button22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button22.BorderRadius = 8;
             this.guna2Button22.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button22.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -787,9 +727,6 @@
             // 
             // guna2Button23
             // 
-            this.guna2Button23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button23.BorderRadius = 8;
             this.guna2Button23.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button23.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -806,9 +743,6 @@
             // 
             // guna2Button24
             // 
-            this.guna2Button24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button24.BorderRadius = 8;
             this.guna2Button24.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button24.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -825,9 +759,6 @@
             // 
             // guna2Button25
             // 
-            this.guna2Button25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button25.BorderRadius = 8;
             this.guna2Button25.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button25.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -844,9 +775,6 @@
             // 
             // guna2Button26
             // 
-            this.guna2Button26.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Button26.BorderRadius = 8;
             this.guna2Button26.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button26.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;

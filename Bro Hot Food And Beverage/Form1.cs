@@ -91,5 +91,13 @@ namespace Bro_Hot_Food_And_Beverage
         {
             
         }
+
+        private void txt_password_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btn_login.PerformClick();   
+            }
+        }
     }
 }

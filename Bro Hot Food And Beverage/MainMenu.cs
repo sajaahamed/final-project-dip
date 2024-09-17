@@ -13,6 +13,7 @@ namespace Bro_Hot_Food_And_Beverage
 {
     public partial class MainMenu : Form
     {
+        private int quantity = 0;
         public MainMenu()
         {
             InitializeComponent();
@@ -190,6 +191,33 @@ namespace Bro_Hot_Food_And_Beverage
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
 
+        }
+
+        private void guna2Button29_Click(object sender, EventArgs e)
+        {
+            String kottuF = btn_CkottuF.Text;
+            kottuF = "Chiken Kottu Full";
+            
+            txt_meal_name.Text = kottuF;
+            txt_meal_price.Text = "800";
+        }
+
+        private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+
+        }
+
+        private void btn_qty_plus_Click(object sender, EventArgs e)
+        { 
+                quantity++;
+                txt_qty.Text = quantity.ToString();
+        }
+
+        private void btn_qty_minus_Click(object sender, EventArgs e)
+        {
+                quantity--;
+                txt_qty.Text = quantity.ToString(); 
         }
     }
 }

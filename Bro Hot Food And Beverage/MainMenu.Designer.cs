@@ -28,37 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series21 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tbc_menu = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.guna2ToggleSwitch1 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2Button77 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button76 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_qty_minus = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2Button75 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btn_qty_plus = new Guna.UI2.WinForms.Guna2Button();
+            this.txt_meal_price = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_qty = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_meal_name = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.guna2Button27 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button28 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button29 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_CkottuF = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button30 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button31 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button32 = new Guna.UI2.WinForms.Guna2Button();
@@ -144,13 +148,9 @@
             this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.guna2ToggleSwitch1 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.guna2TabControl2 = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.tbc_menu.SuspendLayout();
@@ -164,9 +164,9 @@
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.guna2TabControl2.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // tbc_menu
@@ -215,12 +215,12 @@
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Controls.Add(this.panel2);
             this.tabPage1.Controls.Add(this.guna2Button77);
-            this.tabPage1.Controls.Add(this.guna2Button76);
+            this.tabPage1.Controls.Add(this.btn_qty_minus);
             this.tabPage1.Controls.Add(this.panel1);
-            this.tabPage1.Controls.Add(this.guna2Button75);
-            this.tabPage1.Controls.Add(this.guna2TextBox3);
-            this.tabPage1.Controls.Add(this.guna2TextBox2);
-            this.tabPage1.Controls.Add(this.guna2TextBox1);
+            this.tabPage1.Controls.Add(this.btn_qty_plus);
+            this.tabPage1.Controls.Add(this.txt_meal_price);
+            this.tabPage1.Controls.Add(this.txt_qty);
+            this.tabPage1.Controls.Add(this.txt_meal_name);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
@@ -237,14 +237,55 @@
             this.tabPage1.Text = "Billing";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
+            // guna2DateTimePicker1
+            // 
+            this.guna2DateTimePicker1.Checked = true;
+            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.Black;
+            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2DateTimePicker1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(1658, 340);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(318, 54);
+            this.guna2DateTimePicker1.TabIndex = 49;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 9, 16, 15, 24, 16, 846);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(1652, 267);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(209, 32);
+            this.label6.TabIndex = 48;
+            this.label6.Text = "Service Charge";
+            // 
+            // guna2ToggleSwitch1
+            // 
+            this.guna2ToggleSwitch1.CheckedState.BorderColor = System.Drawing.Color.Black;
+            this.guna2ToggleSwitch1.CheckedState.FillColor = System.Drawing.Color.Black;
+            this.guna2ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch1.Location = new System.Drawing.Point(1762, 302);
+            this.guna2ToggleSwitch1.Name = "guna2ToggleSwitch1";
+            this.guna2ToggleSwitch1.Size = new System.Drawing.Size(57, 32);
+            this.guna2ToggleSwitch1.TabIndex = 47;
+            this.guna2ToggleSwitch1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2ToggleSwitch1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2ToggleSwitch1.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch1.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch1.CheckedChanged += new System.EventHandler(this.guna2ToggleSwitch1_CheckedChanged);
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(1583, 56);
+            this.groupBox1.Location = new System.Drawing.Point(1629, 55);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(263, 145);
+            this.groupBox1.Size = new System.Drawing.Size(305, 145);
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "TOTAL";
@@ -294,21 +335,22 @@
             this.guna2Button77.TabIndex = 44;
             this.guna2Button77.Text = "Add";
             // 
-            // guna2Button76
+            // btn_qty_minus
             // 
-            this.guna2Button76.BorderRadius = 10;
-            this.guna2Button76.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button76.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button76.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button76.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button76.FillColor = System.Drawing.Color.Black;
-            this.guna2Button76.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button76.ForeColor = System.Drawing.Color.White;
-            this.guna2Button76.Location = new System.Drawing.Point(1404, 88);
-            this.guna2Button76.Name = "guna2Button76";
-            this.guna2Button76.Size = new System.Drawing.Size(61, 40);
-            this.guna2Button76.TabIndex = 43;
-            this.guna2Button76.Text = "-";
+            this.btn_qty_minus.BorderRadius = 10;
+            this.btn_qty_minus.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_qty_minus.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_qty_minus.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_qty_minus.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_qty_minus.FillColor = System.Drawing.Color.Black;
+            this.btn_qty_minus.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_qty_minus.ForeColor = System.Drawing.Color.White;
+            this.btn_qty_minus.Location = new System.Drawing.Point(1404, 88);
+            this.btn_qty_minus.Name = "btn_qty_minus";
+            this.btn_qty_minus.Size = new System.Drawing.Size(61, 40);
+            this.btn_qty_minus.TabIndex = 43;
+            this.btn_qty_minus.Text = "-";
+            this.btn_qty_minus.Click += new System.EventHandler(this.btn_qty_minus_Click);
             // 
             // panel1
             // 
@@ -320,82 +362,83 @@
             this.panel1.Size = new System.Drawing.Size(987, 6);
             this.panel1.TabIndex = 38;
             // 
-            // guna2Button75
+            // btn_qty_plus
             // 
-            this.guna2Button75.BorderRadius = 10;
-            this.guna2Button75.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button75.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button75.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button75.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button75.FillColor = System.Drawing.Color.Black;
-            this.guna2Button75.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button75.ForeColor = System.Drawing.Color.White;
-            this.guna2Button75.Location = new System.Drawing.Point(1337, 88);
-            this.guna2Button75.Name = "guna2Button75";
-            this.guna2Button75.Size = new System.Drawing.Size(61, 40);
-            this.guna2Button75.TabIndex = 42;
-            this.guna2Button75.Text = "+";
+            this.btn_qty_plus.BorderRadius = 10;
+            this.btn_qty_plus.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_qty_plus.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_qty_plus.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_qty_plus.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_qty_plus.FillColor = System.Drawing.Color.Black;
+            this.btn_qty_plus.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_qty_plus.ForeColor = System.Drawing.Color.White;
+            this.btn_qty_plus.Location = new System.Drawing.Point(1337, 88);
+            this.btn_qty_plus.Name = "btn_qty_plus";
+            this.btn_qty_plus.Size = new System.Drawing.Size(61, 40);
+            this.btn_qty_plus.TabIndex = 42;
+            this.btn_qty_plus.Text = "+";
+            this.btn_qty_plus.Click += new System.EventHandler(this.btn_qty_plus_Click);
             // 
-            // guna2TextBox3
+            // txt_meal_price
             // 
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(1071, 154);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(394, 39);
-            this.guna2TextBox3.TabIndex = 41;
+            this.txt_meal_price.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_meal_price.DefaultText = "";
+            this.txt_meal_price.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_meal_price.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_meal_price.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_meal_price.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_meal_price.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_meal_price.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_meal_price.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_meal_price.Location = new System.Drawing.Point(1071, 154);
+            this.txt_meal_price.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_meal_price.Name = "txt_meal_price";
+            this.txt_meal_price.PasswordChar = '\0';
+            this.txt_meal_price.PlaceholderText = "";
+            this.txt_meal_price.SelectedText = "";
+            this.txt_meal_price.Size = new System.Drawing.Size(394, 39);
+            this.txt_meal_price.TabIndex = 41;
             // 
-            // guna2TextBox2
+            // txt_qty
             // 
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(1071, 89);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(245, 39);
-            this.guna2TextBox2.TabIndex = 40;
+            this.txt_qty.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_qty.DefaultText = "";
+            this.txt_qty.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_qty.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_qty.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_qty.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_qty.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_qty.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_qty.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_qty.Location = new System.Drawing.Point(1071, 89);
+            this.txt_qty.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_qty.Name = "txt_qty";
+            this.txt_qty.PasswordChar = '\0';
+            this.txt_qty.PlaceholderText = "";
+            this.txt_qty.SelectedText = "";
+            this.txt_qty.Size = new System.Drawing.Size(245, 39);
+            this.txt_qty.TabIndex = 40;
             // 
-            // guna2TextBox1
+            // txt_meal_name
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(1071, 28);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.ReadOnly = true;
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(394, 39);
-            this.guna2TextBox1.TabIndex = 39;
+            this.txt_meal_name.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_meal_name.DefaultText = "";
+            this.txt_meal_name.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_meal_name.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_meal_name.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_meal_name.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_meal_name.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_meal_name.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_meal_name.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_meal_name.Location = new System.Drawing.Point(1071, 28);
+            this.txt_meal_name.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_meal_name.Name = "txt_meal_name";
+            this.txt_meal_name.PasswordChar = '\0';
+            this.txt_meal_name.PlaceholderText = "";
+            this.txt_meal_name.ReadOnly = true;
+            this.txt_meal_name.SelectedText = "";
+            this.txt_meal_name.Size = new System.Drawing.Size(394, 39);
+            this.txt_meal_name.TabIndex = 39;
             // 
             // label3
             // 
@@ -418,6 +461,16 @@
             this.label2.TabIndex = 36;
             this.label2.Text = "Quantity";
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(893, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 32);
+            this.label1.TabIndex = 35;
+            this.label1.Text = "Name ";
             // 
             // guna2Panel2
             // 
@@ -471,7 +524,7 @@
             // 
             this.tabPage5.Controls.Add(this.guna2Button27);
             this.tabPage5.Controls.Add(this.guna2Button28);
-            this.tabPage5.Controls.Add(this.guna2Button29);
+            this.tabPage5.Controls.Add(this.btn_CkottuF);
             this.tabPage5.Controls.Add(this.guna2Button30);
             this.tabPage5.Controls.Add(this.guna2Button31);
             this.tabPage5.Controls.Add(this.guna2Button32);
@@ -535,22 +588,23 @@
             this.guna2Button28.TabIndex = 55;
             this.guna2Button28.Text = "Click To Add New Food";
             // 
-            // guna2Button29
+            // btn_CkottuF
             // 
-            this.guna2Button29.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button29.BorderRadius = 8;
-            this.guna2Button29.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button29.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button29.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button29.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button29.FillColor = System.Drawing.Color.DeepPink;
-            this.guna2Button29.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button29.ForeColor = System.Drawing.Color.White;
-            this.guna2Button29.Location = new System.Drawing.Point(14, 17);
-            this.guna2Button29.Name = "guna2Button29";
-            this.guna2Button29.Size = new System.Drawing.Size(126, 85);
-            this.guna2Button29.TabIndex = 32;
-            this.guna2Button29.Text = "Chicken Kottu (F)";
+            this.btn_CkottuF.BackColor = System.Drawing.Color.Transparent;
+            this.btn_CkottuF.BorderRadius = 8;
+            this.btn_CkottuF.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_CkottuF.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_CkottuF.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_CkottuF.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_CkottuF.FillColor = System.Drawing.Color.DeepPink;
+            this.btn_CkottuF.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_CkottuF.ForeColor = System.Drawing.Color.White;
+            this.btn_CkottuF.Location = new System.Drawing.Point(14, 17);
+            this.btn_CkottuF.Name = "btn_CkottuF";
+            this.btn_CkottuF.Size = new System.Drawing.Size(126, 85);
+            this.btn_CkottuF.TabIndex = 32;
+            this.btn_CkottuF.Text = "Chicken Kottu (F)";
+            this.btn_CkottuF.Click += new System.EventHandler(this.guna2Button29_Click);
             // 
             // guna2Button30
             // 
@@ -1803,6 +1857,7 @@
             this.dataGridView3.RowTemplate.Height = 24;
             this.dataGridView3.Size = new System.Drawing.Size(581, 400);
             this.dataGridView3.TabIndex = 2;
+            this.dataGridView3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellContentClick);
             // 
             // meal_bill
             // 
@@ -1931,98 +1986,6 @@
             this.tabPage4.Text = "Sales";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // guna2ToggleSwitch1
-            // 
-            this.guna2ToggleSwitch1.CheckedState.BorderColor = System.Drawing.Color.Black;
-            this.guna2ToggleSwitch1.CheckedState.FillColor = System.Drawing.Color.Black;
-            this.guna2ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.Location = new System.Drawing.Point(1762, 302);
-            this.guna2ToggleSwitch1.Name = "guna2ToggleSwitch1";
-            this.guna2ToggleSwitch1.Size = new System.Drawing.Size(57, 32);
-            this.guna2ToggleSwitch1.TabIndex = 47;
-            this.guna2ToggleSwitch1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2ToggleSwitch1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2ToggleSwitch1.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.CheckedChanged += new System.EventHandler(this.guna2ToggleSwitch1_CheckedChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(893, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 32);
-            this.label1.TabIndex = 35;
-            this.label1.Text = "Name ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(1652, 267);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(209, 32);
-            this.label6.TabIndex = 48;
-            this.label6.Text = "Service Charge";
-            // 
-            // guna2DateTimePicker1
-            // 
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.Black;
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(1658, 340);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(318, 54);
-            this.guna2DateTimePicker1.TabIndex = 49;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 9, 16, 15, 24, 16, 846);
-            // 
-            // chart1
-            // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(6, 33);
-            this.chart1.Name = "chart1";
-            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
-            series15.ChartArea = "ChartArea1";
-            series15.Legend = "Legend1";
-            series15.Name = "Monday";
-            series16.ChartArea = "ChartArea1";
-            series16.Legend = "Legend1";
-            series16.Name = "Tuesday";
-            series17.ChartArea = "ChartArea1";
-            series17.Legend = "Legend1";
-            series17.Name = "Wednesday";
-            series18.ChartArea = "ChartArea1";
-            series18.Legend = "Legend1";
-            series18.Name = "Thursday";
-            series19.ChartArea = "ChartArea1";
-            series19.Legend = "Legend1";
-            series19.Name = "Friday";
-            series20.ChartArea = "ChartArea1";
-            series20.Legend = "Legend1";
-            series20.Name = "Saturday";
-            series21.ChartArea = "ChartArea1";
-            series21.Legend = "Legend1";
-            series21.Name = "Sunday";
-            this.chart1.Series.Add(series15);
-            this.chart1.Series.Add(series16);
-            this.chart1.Series.Add(series17);
-            this.chart1.Series.Add(series18);
-            this.chart1.Series.Add(series19);
-            this.chart1.Series.Add(series20);
-            this.chart1.Series.Add(series21);
-            this.chart1.Size = new System.Drawing.Size(1251, 594);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
-            // 
             // guna2TabControl2
             // 
             this.guna2TabControl2.Alignment = System.Windows.Forms.TabAlignment.Left;
@@ -2063,6 +2026,47 @@
             this.tabPage8.Text = "Monthly";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
+            // chart1
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
+            this.chart1.Location = new System.Drawing.Point(6, 33);
+            this.chart1.Name = "chart1";
+            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
+            series8.ChartArea = "ChartArea1";
+            series8.Legend = "Legend1";
+            series8.Name = "Monday";
+            series9.ChartArea = "ChartArea1";
+            series9.Legend = "Legend1";
+            series9.Name = "Tuesday";
+            series10.ChartArea = "ChartArea1";
+            series10.Legend = "Legend1";
+            series10.Name = "Wednesday";
+            series11.ChartArea = "ChartArea1";
+            series11.Legend = "Legend1";
+            series11.Name = "Thursday";
+            series12.ChartArea = "ChartArea1";
+            series12.Legend = "Legend1";
+            series12.Name = "Friday";
+            series13.ChartArea = "ChartArea1";
+            series13.Legend = "Legend1";
+            series13.Name = "Saturday";
+            series14.ChartArea = "ChartArea1";
+            series14.Legend = "Legend1";
+            series14.Name = "Sunday";
+            this.chart1.Series.Add(series8);
+            this.chart1.Series.Add(series9);
+            this.chart1.Series.Add(series10);
+            this.chart1.Series.Add(series11);
+            this.chart1.Series.Add(series12);
+            this.chart1.Series.Add(series13);
+            this.chart1.Series.Add(series14);
+            this.chart1.Size = new System.Drawing.Size(1251, 594);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
+            // 
             // tabPage9
             // 
             this.tabPage9.Location = new System.Drawing.Point(184, 4);
@@ -2101,9 +2105,9 @@
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.guna2TabControl2.ResumeLayout(false);
             this.tabPage8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2126,7 +2130,6 @@
         private System.Windows.Forms.TabPage tabPage5;
         private Guna.UI2.WinForms.Guna2Button guna2Button27;
         private Guna.UI2.WinForms.Guna2Button guna2Button28;
-        private Guna.UI2.WinForms.Guna2Button guna2Button29;
         private Guna.UI2.WinForms.Guna2Button guna2Button30;
         private Guna.UI2.WinForms.Guna2Button guna2Button31;
         private Guna.UI2.WinForms.Guna2Button guna2Button32;
@@ -2203,11 +2206,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button75;
-        private Guna.UI2.WinForms.Guna2Button guna2Button76;
+        private Guna.UI2.WinForms.Guna2TextBox txt_meal_price;
+        private Guna.UI2.WinForms.Guna2TextBox txt_qty;
+        private Guna.UI2.WinForms.Guna2TextBox txt_meal_name;
+        private Guna.UI2.WinForms.Guna2Button btn_qty_plus;
+        private Guna.UI2.WinForms.Guna2Button btn_qty_minus;
         private Guna.UI2.WinForms.Guna2Button guna2Button77;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -2226,5 +2229,6 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.TabPage tabPage9;
         private System.Drawing.Printing.PrintDocument printDocument1;
+        public Guna.UI2.WinForms.Guna2Button btn_CkottuF;
     }
 }

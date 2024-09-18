@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
+
 namespace Bro_Hot_Food_And_Beverage
 {
     public partial class MainMenu : Form
@@ -16,6 +18,7 @@ namespace Bro_Hot_Food_And_Beverage
         private int quantity = 0;
         public MainMenu()
         {
+            
             InitializeComponent();
         }
 
@@ -208,6 +211,8 @@ namespace Bro_Hot_Food_And_Beverage
 
         }
 
+
+        //quantity eke button deka  (+ ekai - ekai)
         private void btn_qty_plus_Click(object sender, EventArgs e)
         { 
                 quantity++;
@@ -218,6 +223,47 @@ namespace Bro_Hot_Food_And_Beverage
         {
                 quantity--;
                 txt_qty.Text = quantity.ToString(); 
+        }
+
+        private void btn_CkotttuR_Click(object sender, EventArgs e)
+        {
+            String kottuR = btn_CkottuR.Text;
+            kottuR = "Chiken Kottu Reguler";
+
+            txt_meal_name.Text = kottuR;
+            txt_meal_price.Text = "800";
+        }
+
+        //add button in qty section
+        private void guna2Button77_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string meal;
+                int quantity = 0;
+                double Price = 0.00;
+
+                meal = txt_meal_name.ToString();
+                Convert.Totxt_qty.Text = quantity;
+                txt_meal_price.Text = Price.ToString();
+
+
+
+                MySqlConnection connection = new DbCon().connectDB();
+                connection.Open();
+                string query = "INSERT INTO bill (Meal, Quantity, price, ) VALUES(@Meal, @Quantity, @price)";
+                MySqlCommand command = new MySqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Meal", meal);
+                command.Parameters.AddWithValue("@Quantity",;
+                command.Parameters.AddWithValue("@price", Price);
+
+                command.ExecuteNonQuery();
+                MessageBox.Show("Items add succesfully");
+                
+            }
+            catch (Exception ex) { 
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

@@ -64,19 +64,19 @@
             this.guna2Button28 = new Guna.UI2.WinForms.Guna2Button();
             this.btn_CkottuF = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button30 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button31 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_CkottuR = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button32 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button33 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_BkottuF = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button34 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button35 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_BkottuR = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button36 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button37 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_PkottuF = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button38 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button39 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_PkottuR = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button40 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button41 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_SkottuF = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button42 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button43 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_SkottuR = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button44 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button45 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button46 = new Guna.UI2.WinForms.Guna2Button();
@@ -283,19 +283,20 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(1629, 55);
+            this.groupBox1.Location = new System.Drawing.Point(1586, 7);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(305, 145);
+            this.groupBox1.Size = new System.Drawing.Size(348, 212);
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "TOTAL";
             // 
             // label5
             // 
+            this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(79, 60);
+            this.label5.Location = new System.Drawing.Point(187, 82);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(189, 52);
+            this.label5.Size = new System.Drawing.Size(106, 51);
             this.label5.TabIndex = 48;
             this.label5.Text = "0.00";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -305,7 +306,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 60);
+            this.label4.Location = new System.Drawing.Point(66, 82);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 51);
             this.label4.TabIndex = 47;
@@ -334,6 +335,7 @@
             this.guna2Button77.Size = new System.Drawing.Size(147, 43);
             this.guna2Button77.TabIndex = 44;
             this.guna2Button77.Text = "Add";
+            this.guna2Button77.Click += new System.EventHandler(this.guna2Button77_Click);
             // 
             // btn_qty_minus
             // 
@@ -526,19 +528,19 @@
             this.tabPage5.Controls.Add(this.guna2Button28);
             this.tabPage5.Controls.Add(this.btn_CkottuF);
             this.tabPage5.Controls.Add(this.guna2Button30);
-            this.tabPage5.Controls.Add(this.guna2Button31);
+            this.tabPage5.Controls.Add(this.btn_CkottuR);
             this.tabPage5.Controls.Add(this.guna2Button32);
-            this.tabPage5.Controls.Add(this.guna2Button33);
+            this.tabPage5.Controls.Add(this.btn_BkottuF);
             this.tabPage5.Controls.Add(this.guna2Button34);
-            this.tabPage5.Controls.Add(this.guna2Button35);
+            this.tabPage5.Controls.Add(this.btn_BkottuR);
             this.tabPage5.Controls.Add(this.guna2Button36);
-            this.tabPage5.Controls.Add(this.guna2Button37);
+            this.tabPage5.Controls.Add(this.btn_PkottuF);
             this.tabPage5.Controls.Add(this.guna2Button38);
-            this.tabPage5.Controls.Add(this.guna2Button39);
+            this.tabPage5.Controls.Add(this.btn_PkottuR);
             this.tabPage5.Controls.Add(this.guna2Button40);
-            this.tabPage5.Controls.Add(this.guna2Button41);
+            this.tabPage5.Controls.Add(this.btn_SkottuF);
             this.tabPage5.Controls.Add(this.guna2Button42);
-            this.tabPage5.Controls.Add(this.guna2Button43);
+            this.tabPage5.Controls.Add(this.btn_SkottuR);
             this.tabPage5.Controls.Add(this.guna2Button44);
             this.tabPage5.Controls.Add(this.guna2Button45);
             this.tabPage5.Controls.Add(this.guna2Button46);
@@ -623,22 +625,23 @@
             this.guna2Button30.TabIndex = 54;
             this.guna2Button30.Text = "Click To Add New Food";
             // 
-            // guna2Button31
+            // btn_CkottuR
             // 
-            this.guna2Button31.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button31.BorderRadius = 8;
-            this.guna2Button31.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button31.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button31.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button31.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button31.FillColor = System.Drawing.Color.DeepPink;
-            this.guna2Button31.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button31.ForeColor = System.Drawing.Color.White;
-            this.guna2Button31.Location = new System.Drawing.Point(146, 17);
-            this.guna2Button31.Name = "guna2Button31";
-            this.guna2Button31.Size = new System.Drawing.Size(126, 85);
-            this.guna2Button31.TabIndex = 33;
-            this.guna2Button31.Text = "Chicken Kottu (R)";
+            this.btn_CkottuR.BackColor = System.Drawing.Color.Transparent;
+            this.btn_CkottuR.BorderRadius = 8;
+            this.btn_CkottuR.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_CkottuR.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_CkottuR.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_CkottuR.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_CkottuR.FillColor = System.Drawing.Color.DeepPink;
+            this.btn_CkottuR.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_CkottuR.ForeColor = System.Drawing.Color.White;
+            this.btn_CkottuR.Location = new System.Drawing.Point(146, 17);
+            this.btn_CkottuR.Name = "btn_CkottuR";
+            this.btn_CkottuR.Size = new System.Drawing.Size(126, 85);
+            this.btn_CkottuR.TabIndex = 33;
+            this.btn_CkottuR.Text = "Chicken Kottu (R)";
+            this.btn_CkottuR.Click += new System.EventHandler(this.btn_CkotttuR_Click);
             // 
             // guna2Button32
             // 
@@ -657,22 +660,22 @@
             this.guna2Button32.TabIndex = 53;
             this.guna2Button32.Text = "Click To Add New Food";
             // 
-            // guna2Button33
+            // btn_BkottuF
             // 
-            this.guna2Button33.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button33.BorderRadius = 8;
-            this.guna2Button33.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button33.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button33.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button33.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button33.FillColor = System.Drawing.Color.DeepPink;
-            this.guna2Button33.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button33.ForeColor = System.Drawing.Color.White;
-            this.guna2Button33.Location = new System.Drawing.Point(278, 17);
-            this.guna2Button33.Name = "guna2Button33";
-            this.guna2Button33.Size = new System.Drawing.Size(126, 85);
-            this.guna2Button33.TabIndex = 34;
-            this.guna2Button33.Text = "Beef Kottu (F)";
+            this.btn_BkottuF.BackColor = System.Drawing.Color.Transparent;
+            this.btn_BkottuF.BorderRadius = 8;
+            this.btn_BkottuF.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_BkottuF.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_BkottuF.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_BkottuF.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_BkottuF.FillColor = System.Drawing.Color.DeepPink;
+            this.btn_BkottuF.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BkottuF.ForeColor = System.Drawing.Color.White;
+            this.btn_BkottuF.Location = new System.Drawing.Point(278, 17);
+            this.btn_BkottuF.Name = "btn_BkottuF";
+            this.btn_BkottuF.Size = new System.Drawing.Size(126, 85);
+            this.btn_BkottuF.TabIndex = 34;
+            this.btn_BkottuF.Text = "Beef Kottu (F)";
             // 
             // guna2Button34
             // 
@@ -691,22 +694,22 @@
             this.guna2Button34.TabIndex = 52;
             this.guna2Button34.Text = "Click To Add New Food";
             // 
-            // guna2Button35
+            // btn_BkottuR
             // 
-            this.guna2Button35.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button35.BorderRadius = 8;
-            this.guna2Button35.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button35.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button35.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button35.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button35.FillColor = System.Drawing.Color.DeepPink;
-            this.guna2Button35.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button35.ForeColor = System.Drawing.Color.White;
-            this.guna2Button35.Location = new System.Drawing.Point(410, 17);
-            this.guna2Button35.Name = "guna2Button35";
-            this.guna2Button35.Size = new System.Drawing.Size(126, 85);
-            this.guna2Button35.TabIndex = 35;
-            this.guna2Button35.Text = "Beef Kottu (R)";
+            this.btn_BkottuR.BackColor = System.Drawing.Color.Transparent;
+            this.btn_BkottuR.BorderRadius = 8;
+            this.btn_BkottuR.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_BkottuR.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_BkottuR.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_BkottuR.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_BkottuR.FillColor = System.Drawing.Color.DeepPink;
+            this.btn_BkottuR.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BkottuR.ForeColor = System.Drawing.Color.White;
+            this.btn_BkottuR.Location = new System.Drawing.Point(410, 17);
+            this.btn_BkottuR.Name = "btn_BkottuR";
+            this.btn_BkottuR.Size = new System.Drawing.Size(126, 85);
+            this.btn_BkottuR.TabIndex = 35;
+            this.btn_BkottuR.Text = "Beef Kottu (R)";
             // 
             // guna2Button36
             // 
@@ -725,22 +728,22 @@
             this.guna2Button36.TabIndex = 51;
             this.guna2Button36.Text = "Click To Add New Food";
             // 
-            // guna2Button37
+            // btn_PkottuF
             // 
-            this.guna2Button37.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button37.BorderRadius = 8;
-            this.guna2Button37.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button37.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button37.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button37.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button37.FillColor = System.Drawing.Color.DeepPink;
-            this.guna2Button37.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button37.ForeColor = System.Drawing.Color.White;
-            this.guna2Button37.Location = new System.Drawing.Point(14, 108);
-            this.guna2Button37.Name = "guna2Button37";
-            this.guna2Button37.Size = new System.Drawing.Size(126, 85);
-            this.guna2Button37.TabIndex = 36;
-            this.guna2Button37.Text = "Pork Kottu (F)";
+            this.btn_PkottuF.BackColor = System.Drawing.Color.Transparent;
+            this.btn_PkottuF.BorderRadius = 8;
+            this.btn_PkottuF.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_PkottuF.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_PkottuF.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_PkottuF.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_PkottuF.FillColor = System.Drawing.Color.DeepPink;
+            this.btn_PkottuF.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_PkottuF.ForeColor = System.Drawing.Color.White;
+            this.btn_PkottuF.Location = new System.Drawing.Point(14, 108);
+            this.btn_PkottuF.Name = "btn_PkottuF";
+            this.btn_PkottuF.Size = new System.Drawing.Size(126, 85);
+            this.btn_PkottuF.TabIndex = 36;
+            this.btn_PkottuF.Text = "Pork Kottu (F)";
             // 
             // guna2Button38
             // 
@@ -759,22 +762,22 @@
             this.guna2Button38.TabIndex = 50;
             this.guna2Button38.Text = "Click To Add New Food";
             // 
-            // guna2Button39
+            // btn_PkottuR
             // 
-            this.guna2Button39.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button39.BorderRadius = 8;
-            this.guna2Button39.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button39.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button39.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button39.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button39.FillColor = System.Drawing.Color.DeepPink;
-            this.guna2Button39.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button39.ForeColor = System.Drawing.Color.White;
-            this.guna2Button39.Location = new System.Drawing.Point(146, 108);
-            this.guna2Button39.Name = "guna2Button39";
-            this.guna2Button39.Size = new System.Drawing.Size(126, 85);
-            this.guna2Button39.TabIndex = 37;
-            this.guna2Button39.Text = "Pork Kottu (R)";
+            this.btn_PkottuR.BackColor = System.Drawing.Color.Transparent;
+            this.btn_PkottuR.BorderRadius = 8;
+            this.btn_PkottuR.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_PkottuR.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_PkottuR.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_PkottuR.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_PkottuR.FillColor = System.Drawing.Color.DeepPink;
+            this.btn_PkottuR.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_PkottuR.ForeColor = System.Drawing.Color.White;
+            this.btn_PkottuR.Location = new System.Drawing.Point(146, 108);
+            this.btn_PkottuR.Name = "btn_PkottuR";
+            this.btn_PkottuR.Size = new System.Drawing.Size(126, 85);
+            this.btn_PkottuR.TabIndex = 37;
+            this.btn_PkottuR.Text = "Pork Kottu (R)";
             // 
             // guna2Button40
             // 
@@ -793,22 +796,22 @@
             this.guna2Button40.TabIndex = 49;
             this.guna2Button40.Text = " Click To Add New Food";
             // 
-            // guna2Button41
+            // btn_SkottuF
             // 
-            this.guna2Button41.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button41.BorderRadius = 8;
-            this.guna2Button41.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button41.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button41.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button41.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button41.FillColor = System.Drawing.Color.DeepPink;
-            this.guna2Button41.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button41.ForeColor = System.Drawing.Color.White;
-            this.guna2Button41.Location = new System.Drawing.Point(278, 108);
-            this.guna2Button41.Name = "guna2Button41";
-            this.guna2Button41.Size = new System.Drawing.Size(126, 85);
-            this.guna2Button41.TabIndex = 38;
-            this.guna2Button41.Text = "Sosagas Kottu (F) ";
+            this.btn_SkottuF.BackColor = System.Drawing.Color.Transparent;
+            this.btn_SkottuF.BorderRadius = 8;
+            this.btn_SkottuF.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_SkottuF.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_SkottuF.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_SkottuF.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_SkottuF.FillColor = System.Drawing.Color.DeepPink;
+            this.btn_SkottuF.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_SkottuF.ForeColor = System.Drawing.Color.White;
+            this.btn_SkottuF.Location = new System.Drawing.Point(278, 108);
+            this.btn_SkottuF.Name = "btn_SkottuF";
+            this.btn_SkottuF.Size = new System.Drawing.Size(126, 85);
+            this.btn_SkottuF.TabIndex = 38;
+            this.btn_SkottuF.Text = "Sosagas Kottu (F) ";
             // 
             // guna2Button42
             // 
@@ -827,22 +830,22 @@
             this.guna2Button42.TabIndex = 48;
             this.guna2Button42.Text = "Click To Add New Food";
             // 
-            // guna2Button43
+            // btn_SkottuR
             // 
-            this.guna2Button43.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button43.BorderRadius = 8;
-            this.guna2Button43.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button43.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button43.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button43.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button43.FillColor = System.Drawing.Color.DeepPink;
-            this.guna2Button43.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button43.ForeColor = System.Drawing.Color.White;
-            this.guna2Button43.Location = new System.Drawing.Point(410, 108);
-            this.guna2Button43.Name = "guna2Button43";
-            this.guna2Button43.Size = new System.Drawing.Size(126, 85);
-            this.guna2Button43.TabIndex = 39;
-            this.guna2Button43.Text = "Sosages Kottu (R)";
+            this.btn_SkottuR.BackColor = System.Drawing.Color.Transparent;
+            this.btn_SkottuR.BorderRadius = 8;
+            this.btn_SkottuR.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_SkottuR.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_SkottuR.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_SkottuR.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_SkottuR.FillColor = System.Drawing.Color.DeepPink;
+            this.btn_SkottuR.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_SkottuR.ForeColor = System.Drawing.Color.White;
+            this.btn_SkottuR.Location = new System.Drawing.Point(410, 108);
+            this.btn_SkottuR.Name = "btn_SkottuR";
+            this.btn_SkottuR.Size = new System.Drawing.Size(126, 85);
+            this.btn_SkottuR.TabIndex = 39;
+            this.btn_SkottuR.Text = "Sosages Kottu (R)";
             // 
             // guna2Button44
             // 
@@ -2131,19 +2134,19 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button27;
         private Guna.UI2.WinForms.Guna2Button guna2Button28;
         private Guna.UI2.WinForms.Guna2Button guna2Button30;
-        private Guna.UI2.WinForms.Guna2Button guna2Button31;
+        private Guna.UI2.WinForms.Guna2Button btn_CkottuR;
         private Guna.UI2.WinForms.Guna2Button guna2Button32;
-        private Guna.UI2.WinForms.Guna2Button guna2Button33;
+        private Guna.UI2.WinForms.Guna2Button btn_BkottuF;
         private Guna.UI2.WinForms.Guna2Button guna2Button34;
-        private Guna.UI2.WinForms.Guna2Button guna2Button35;
+        private Guna.UI2.WinForms.Guna2Button btn_BkottuR;
         private Guna.UI2.WinForms.Guna2Button guna2Button36;
-        private Guna.UI2.WinForms.Guna2Button guna2Button37;
+        private Guna.UI2.WinForms.Guna2Button btn_PkottuF;
         private Guna.UI2.WinForms.Guna2Button guna2Button38;
-        private Guna.UI2.WinForms.Guna2Button guna2Button39;
+        private Guna.UI2.WinForms.Guna2Button btn_PkottuR;
         private Guna.UI2.WinForms.Guna2Button guna2Button40;
-        private Guna.UI2.WinForms.Guna2Button guna2Button41;
+        private Guna.UI2.WinForms.Guna2Button btn_SkottuF;
         private Guna.UI2.WinForms.Guna2Button guna2Button42;
-        private Guna.UI2.WinForms.Guna2Button guna2Button43;
+        private Guna.UI2.WinForms.Guna2Button btn_SkottuR;
         private Guna.UI2.WinForms.Guna2Button guna2Button44;
         private Guna.UI2.WinForms.Guna2Button guna2Button45;
         private Guna.UI2.WinForms.Guna2Button guna2Button46;

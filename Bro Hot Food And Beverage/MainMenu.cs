@@ -243,19 +243,19 @@ namespace Bro_Hot_Food_And_Beverage
                 int quantity = 0;
                 double Price = 0.00;
 
-                meal = txt_meal_name.ToString();
-                Convert.Totxt_qty.Text = quantity;
-                txt_meal_price.Text = Price.ToString();
+                meal = txt_meal_name.Text;
+                
+                
 
 
 
                 MySqlConnection connection = new DbCon().connectDB();
                 connection.Open();
-                string query = "INSERT INTO bill (Meal, Quantity, price, ) VALUES(@Meal, @Quantity, @price)";
+                string query = "insert into bill (Meal, Quantity, price ) VALUES(@Meal, @Quantity, @price)";
                 MySqlCommand command = new MySqlCommand(query, connection);
                 command.Parameters.AddWithValue("@Meal", meal);
-                command.Parameters.AddWithValue("@Quantity",;
-                command.Parameters.AddWithValue("@price", Price);
+                command.Parameters.AddWithValue("@Quantity", Convert.ToInt32(txt_qty.Text));
+                command.Parameters.AddWithValue("@price", Convert.ToDouble(txt_meal_price.Text));
 
                 command.ExecuteNonQuery();
                 MessageBox.Show("Items add succesfully");

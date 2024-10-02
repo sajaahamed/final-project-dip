@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tbc_menu = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -136,10 +136,6 @@
             this.guna2Button74 = new Guna.UI2.WinForms.Guna2Button();
             this.btn_pay = new Guna.UI2.WinForms.Guna2Button();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.meal_bill = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.qty_bill = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price_bill = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -153,6 +149,10 @@
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.meal_bill = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qty_bill = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price_bill = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbc_menu.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -1862,37 +1862,6 @@
             this.dataGridView3.TabIndex = 2;
             this.dataGridView3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellContentClick);
             // 
-            // meal_bill
-            // 
-            this.meal_bill.HeaderText = "Meal";
-            this.meal_bill.MinimumWidth = 6;
-            this.meal_bill.Name = "meal_bill";
-            this.meal_bill.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.meal_bill.Width = 150;
-            // 
-            // qty_bill
-            // 
-            this.qty_bill.HeaderText = "Quantity";
-            this.qty_bill.MinimumWidth = 6;
-            this.qty_bill.Name = "qty_bill";
-            this.qty_bill.Width = 125;
-            // 
-            // price_bill
-            // 
-            this.price_bill.HeaderText = "Price";
-            this.price_bill.MinimumWidth = 6;
-            this.price_bill.Name = "price_bill";
-            this.price_bill.ReadOnly = true;
-            this.price_bill.Width = 130;
-            // 
-            // Total
-            // 
-            this.Total.HeaderText = "Total";
-            this.Total.MinimumWidth = 6;
-            this.Total.Name = "Total";
-            this.Total.ReadOnly = true;
-            this.Total.Width = 125;
-            // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Transparent;
@@ -2031,41 +2000,41 @@
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(6, 33);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
-            series8.ChartArea = "ChartArea1";
-            series8.Legend = "Legend1";
-            series8.Name = "Monday";
-            series9.ChartArea = "ChartArea1";
-            series9.Legend = "Legend1";
-            series9.Name = "Tuesday";
-            series10.ChartArea = "ChartArea1";
-            series10.Legend = "Legend1";
-            series10.Name = "Wednesday";
-            series11.ChartArea = "ChartArea1";
-            series11.Legend = "Legend1";
-            series11.Name = "Thursday";
-            series12.ChartArea = "ChartArea1";
-            series12.Legend = "Legend1";
-            series12.Name = "Friday";
-            series13.ChartArea = "ChartArea1";
-            series13.Legend = "Legend1";
-            series13.Name = "Saturday";
-            series14.ChartArea = "ChartArea1";
-            series14.Legend = "Legend1";
-            series14.Name = "Sunday";
-            this.chart1.Series.Add(series8);
-            this.chart1.Series.Add(series9);
-            this.chart1.Series.Add(series10);
-            this.chart1.Series.Add(series11);
-            this.chart1.Series.Add(series12);
-            this.chart1.Series.Add(series13);
-            this.chart1.Series.Add(series14);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Monday";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Tuesday";
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Wednesday";
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Legend1";
+            series4.Name = "Thursday";
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Friday";
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Saturday";
+            series7.ChartArea = "ChartArea1";
+            series7.Legend = "Legend1";
+            series7.Name = "Sunday";
+            this.chart1.Series.Add(series1);
+            this.chart1.Series.Add(series2);
+            this.chart1.Series.Add(series3);
+            this.chart1.Series.Add(series4);
+            this.chart1.Series.Add(series5);
+            this.chart1.Series.Add(series6);
+            this.chart1.Series.Add(series7);
             this.chart1.Size = new System.Drawing.Size(1251, 594);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -2083,6 +2052,36 @@
             // printDocument1
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
+            // meal_bill
+            // 
+            this.meal_bill.HeaderText = "Meal";
+            this.meal_bill.MinimumWidth = 6;
+            this.meal_bill.Name = "meal_bill";
+            this.meal_bill.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.meal_bill.Width = 150;
+            // 
+            // qty_bill
+            // 
+            this.qty_bill.HeaderText = "Quantity";
+            this.qty_bill.MinimumWidth = 6;
+            this.qty_bill.Name = "qty_bill";
+            this.qty_bill.Width = 125;
+            // 
+            // price_bill
+            // 
+            this.price_bill.HeaderText = "Price";
+            this.price_bill.MinimumWidth = 6;
+            this.price_bill.Name = "price_bill";
+            this.price_bill.ReadOnly = true;
+            this.price_bill.Width = 130;
+            // 
+            // Total
+            // 
+            this.Total.HeaderText = "Total";
+            this.Total.MinimumWidth = 6;
+            this.Total.Name = "Total";
+            this.Total.Width = 125;
             // 
             // MainMenu
             // 
@@ -2219,10 +2218,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn meal_bill;
-        private System.Windows.Forms.DataGridViewTextBoxColumn qty_bill;
-        private System.Windows.Forms.DataGridViewTextBoxColumn price_bill;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch1;
         private System.Windows.Forms.Label label1;
@@ -2233,5 +2228,9 @@
         private System.Windows.Forms.TabPage tabPage9;
         private System.Drawing.Printing.PrintDocument printDocument1;
         public Guna.UI2.WinForms.Guna2Button btn_CkottuF;
+        private System.Windows.Forms.DataGridViewTextBoxColumn meal_bill;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qty_bill;
+        private System.Windows.Forms.DataGridViewTextBoxColumn price_bill;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
     }
 }

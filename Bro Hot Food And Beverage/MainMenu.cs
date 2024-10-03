@@ -15,7 +15,8 @@ namespace Bro_Hot_Food_And_Beverage
 {
     public partial class MainMenu : Form
     {
-        private int quantity = 0;
+       
+
         public MainMenu()
         {
             
@@ -214,15 +215,30 @@ namespace Bro_Hot_Food_And_Beverage
 
         //quantity eke button deka  (+ ekai - ekai)
         private void btn_qty_plus_Click(object sender, EventArgs e)
-        { 
+        {
+            
                 quantity++;
                 txt_qty.Text = quantity.ToString();
+            double Price = Convert.ToDouble(txt_meal_price.Text);
+            double total = 0.00;
+             quantity = Convert.ToInt32(txt_qty.Text);
+
+            total=Price*quantity;
+
+            txt_tot.Text=total.ToString();
+
+
         }
 
         private void btn_qty_minus_Click(object sender, EventArgs e)
         {
                 quantity--;
-                txt_qty.Text = quantity.ToString(); 
+                txt_qty.Text = quantity.ToString();
+            double total = 0.00;
+            double Price = Convert.ToDouble(txt_meal_price.Text);
+            total =Convert.ToInt32(txt_tot.Text);
+            total = total - Price;
+            txt_tot.Text=total.ToString();
         }
 
         private void btn_CkotttuR_Click(object sender, EventArgs e)
@@ -242,14 +258,33 @@ namespace Bro_Hot_Food_And_Beverage
                 string meal;
                 int quantity = 0;
                 double Price = 0.00;
+                double total = 0.00;
+
 
                 meal = txt_meal_name.Text;
+                quantity=Convert.ToInt32(txt_qty.Text);
+                Price=Convert.ToDouble(txt_meal_price.Text);
+                total = Convert.ToDouble(txt_tot.Text);
                 
-                
+                dataGridView3.Rows.Add(meal,quantity,Price,total);
 
 
 
-                MySqlConnection connection = new DbCon().connectDB();
+
+
+                txt_meal_name.Clear();
+                txt_meal_price.Clear();
+                txt_qty.Clear();
+                txt_tot.Clear();
+
+                quantity = 0;
+
+
+
+
+
+
+                /*MySqlConnection connection = new DbCon().connectDB();
                 connection.Open();
                 string query = "insert into bill (Meal, Quantity, price ) VALUES(@Meal, @Quantity, @price)";
                 MySqlCommand command = new MySqlCommand(query, connection);
@@ -257,13 +292,32 @@ namespace Bro_Hot_Food_And_Beverage
                 command.Parameters.AddWithValue("@Quantity", Convert.ToInt32(txt_qty.Text));
                 command.Parameters.AddWithValue("@price", Convert.ToDouble(txt_meal_price.Text));
 
-                command.ExecuteNonQuery();
+
+                txt_meal_name.Clear();
+                txt_meal_price.Clear();
+                txt_qty.Clear();
+
+
+
+                command.ExecuteNonQuery();*/
                 MessageBox.Show("Items add succesfully");
                 
             }
             catch (Exception ex) { 
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btn_clr_Click(object sender, EventArgs e)
+        {
+            txt_meal_name.Clear();
+            txt_meal_price.Clear();
+            txt_qty.Clear();   
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

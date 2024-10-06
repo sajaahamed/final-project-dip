@@ -15,7 +15,8 @@ namespace Bro_Hot_Food_And_Beverage
 {
     public partial class MainMenu : Form
     {
-       
+        private int quantity = 0;
+
 
         public MainMenu()
         {

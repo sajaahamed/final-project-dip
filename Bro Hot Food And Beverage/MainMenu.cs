@@ -359,7 +359,7 @@ namespace Bro_Hot_Food_And_Beverage
 
         public void getvalue()
         {
-            lbl_tot.Text = "0";
+           // lbl_tot.Text = "0";
             double tot;
             double tl;
             double ftot;

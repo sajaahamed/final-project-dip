@@ -366,10 +366,10 @@ namespace Bro_Hot_Food_And_Beverage
             for (int i = 0; i < dataGridView3.Rows.Count; i++)
             {
 
-                tot = Convert.ToDouble(lbl_tot.Text);
+               // tot = Convert.ToDouble(lbl_tot.Text);
                 tl = Convert.ToDouble(dataGridView3.Rows[i].Cells[4].Value);
-                ftot = tot + tl;
-                lbl_tot.Text = ftot.ToString();
+                //ftot = tot + tl;
+                //lbl_tot.Text = ftot.ToString();
             }
         }
 

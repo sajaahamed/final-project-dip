@@ -15,12 +15,14 @@ namespace Bro_Hot_Food_And_Beverage
 {
     public partial class MainMenu : Form
     {
-       
+        int quantity = 0;
+        double srv;
 
         public MainMenu()
         {
             
             InitializeComponent();
+            getvalue();
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
@@ -219,26 +221,40 @@ namespace Bro_Hot_Food_And_Beverage
             
                 quantity++;
                 txt_qty.Text = quantity.ToString();
-            double Price = Convert.ToDouble(txt_meal_price.Text);
-            double total = 0.00;
-             quantity = Convert.ToInt32(txt_qty.Text);
+            if (double.TryParse(txt_meal_price.Text, out a) == false)
+            {
+                MessageBox.Show("nothing");
+            }
+            else
+            {
+                double Price = Convert.ToDouble(txt_meal_price.Text);
+                double total = 0.00;
+                quantity = Convert.ToInt32(txt_qty.Text);
 
-            total=Price*quantity;
+                total = Price * quantity;
 
-            txt_tot.Text=total.ToString();
-
+                txt_tot.Text = total.ToString();
+            }
 
         }
 
         private void btn_qty_minus_Click(object sender, EventArgs e)
         {
+            double b;
                 quantity--;
                 txt_qty.Text = quantity.ToString();
             double total = 0.00;
-            double Price = Convert.ToDouble(txt_meal_price.Text);
-            total =Convert.ToInt32(txt_tot.Text);
-            total = total - Price;
-            txt_tot.Text=total.ToString();
+            if (double.TryParse(txt_meal_price.Text, out b) == false)
+            {
+                MessageBox.Show("nothing");
+            }
+            else
+            {
+                double Price = Convert.ToDouble(txt_meal_price.Text);
+                total = Convert.ToInt32(txt_tot.Text);
+                total = total - Price;
+                txt_tot.Text = total.ToString();
+            }
         }
 
         private void btn_CkotttuR_Click(object sender, EventArgs e)
@@ -265,8 +281,24 @@ namespace Bro_Hot_Food_And_Beverage
                 quantity=Convert.ToInt32(txt_qty.Text);
                 Price=Convert.ToDouble(txt_meal_price.Text);
                 total = Convert.ToDouble(txt_tot.Text);
-                
-                dataGridView3.Rows.Add(meal,quantity,Price,total);
+
+
+
+                double ntot;
+                if (swtch_sch.Checked == true)
+                {
+
+
+                    srv = total * 10 / 100;
+                    ntot = total + srv;
+                }
+                else
+                {
+                    ntot = total;
+                }
+
+
+                dataGridView3.Rows.Add(meal, quantity, Price, srv, ntot);
 
 
 
@@ -276,8 +308,11 @@ namespace Bro_Hot_Food_And_Beverage
                 txt_meal_price.Clear();
                 txt_qty.Clear();
                 txt_tot.Clear();
+                swtch_sch.Checked = false;
 
-                quantity = 0;
+
+                srv = 0;
+
 
 
 
@@ -301,11 +336,13 @@ namespace Bro_Hot_Food_And_Beverage
 
                 command.ExecuteNonQuery();*/
                 MessageBox.Show("Items add succesfully");
+                getvalue();
                 
             }
             catch (Exception ex) { 
                 MessageBox.Show(ex.Message);
             }
+            quantity = 0;
         }
 
         private void btn_clr_Click(object sender, EventArgs e)
@@ -316,6 +353,27 @@ namespace Bro_Hot_Food_And_Beverage
         }
 
         private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void getvalue()
+        {
+            lbl_tot.Text = "0";
+            double tot;
+            double tl;
+            double ftot;
+            for (int i = 0; i < dataGridView3.Rows.Count; i++)
+            {
+
+                tot = Convert.ToDouble(lbl_tot.Text);
+                tl = Convert.ToDouble(dataGridView3.Rows[i].Cells[4].Value);
+                ftot = tot + tl;
+                lbl_tot.Text = ftot.ToString();
+            }
+        }
+
+        private void MainMenu_Load_1(object sender, EventArgs e)
         {
 
         }
